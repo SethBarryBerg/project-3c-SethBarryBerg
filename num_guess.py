@@ -1,6 +1,8 @@
-user_input = int(input("Enter the integer for the player to guess."))
+user_input = int(input(
+"Enter the integer for the player to guess."))
 
-guess = int(input("Enter your guess."))
+guess = int(input(
+"Enter your guess."))
 
 count_guesses = 1
 
