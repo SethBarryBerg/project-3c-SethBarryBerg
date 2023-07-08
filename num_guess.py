@@ -1,8 +1,8 @@
-user_input = int(input
-    ("Enter the integer for the player to guess."))
+user_input = int(input("Enter the integer for the player to guess."))
+print("")
 
-guess = int(input
-    ("Enter your guess."))
+guess = int(input("Enter your guess."))
+print("")
 
 count_guesses = 1
 
@@ -18,4 +18,4 @@ if count_guesses == 1:
 else:
     print("You guessed it in", count_guesses, "tries.")
 
-#please work :(
+#added prints to try to make it work in gradescope >:(
