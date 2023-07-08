@@ -1,6 +1,9 @@
 user_input = int(input("Enter the integer for the player to guess."))
+
 guess = int(input("Enter your guess."))
+
 count_guesses = 1
+
 while guess != user_input:
     if guess > user_input:
         print("Too high - try again:")
